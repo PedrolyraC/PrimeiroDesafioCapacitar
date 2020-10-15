@@ -1,0 +1,267 @@
+.h1 {
+background-color:rgba(255, 72, 26, 0.176) ;
+height: 80px;
+width: 1080px;
+}
+ul{
+padding: 0px!important;
+position: absolute;
+}
+.logo{
+padding: 10px;
+width:8%;
+margin: 0;
+}
+.bdm ul li {
+display: inline-block;
+margin-left: 10px;
+padding: 30px;
+justify-content: flex-start;
+}
+
+.bdm ul li a {
+color: black;
+text-decoration: none;
+font-size: 12px;
+text-transform: uppercase;
+position: relative;
+justify-content: flex-start;
+}
+
+.bdm ul li a:hover{
+color:black;
+}
+
+.h2 {
+display: inline-block;
+position: relative;
+}
+.b1 {    
+position:absolute;
+top:50%;
+left:50%;
+-webkit-transform:translate3d(-50%, -50%, 0);
+-moz-transform:translate3d(-50%, -50%, 0);
+transform:translate3d(-50%, -50%, 0);
+text-transform: uppercase;
+width:120px;  
+height:40px;	
+color: white;
+background-color: #ff471a;
+border-radius: 10px;
+border: none;
+font: Montserrat semibold;
+}
+.txt1 {
+position: absolute;
+color:white;
+text-align: center;
+top: 100px;
+line-height: 100px;
+height: 100px;
+right: 200px;
+font: Montserrat semibold;
+}
+
+.img2{
+width:160px ;
+height:160px ;
+position: relative;
+left: 600px;
+}
+.b2 {    
+position:absolute;
+left:50%;
+top: 120%;
+-webkit-transform:translate3d(-50%, -50%, 0);
+-moz-transform:translate3d(-50%, -50%, 0);
+transform:translate3d(-50%, -50%, 0);
+text-transform: uppercase;
+width:100px;  
+height:60px;	
+color: white;
+background-color: #ff471a;
+border-radius: 10px;
+border: none;
+font: Montserrat semibold;
+}
+.txt2{
+text-align: center;
+}
+.cards{
+display: flex;
+flex-direction: column;
+}
+.txt3{
+text-align: center;
+color: #ff471a;
+font: Montserrat semibold;
+}
+.img3{
+width: 175px;
+height: 125px;
+border-radius: 10px;
+opacity: 0.8;
+position: relative;
+left: 17px;
+}
+.img4{
+width: 175px;
+height: 125px;
+border-radius: 10px;
+opacity: 0.8;
+position: relative;
+top: 250px;
+right:160px;
+}
+.img5{
+width: 175px;
+height: 125px;
+border-radius: 10px;
+opacity: 0.8;    
+}
+.img6{
+width: 175px;
+height: 125px;
+border-radius: 10px;
+opacity: 0.8;  
+position: relative;
+top: 250px;  
+right: 180px;
+}
+.img7{
+width: 175px;
+height: 125px;
+border-radius: 10px;  
+opacity: 0.8;
+position: relative;  
+}
+.img8{
+width: 175px;
+height: 125px;
+border-radius: 10px;    
+opacity: 0.8;
+position: relative;
+top: 250px;
+right: 178px;
+}
+.card1{
+position: absolute;
+color: #ff471a;
+text-align: center;
+top: 1060px;
+line-height: 100px;
+height: 100px;
+right: 1170px;
+position: absolute;
+
+}
+.card2{
+position: absolute;
+color: #ff471a;
+text-align: center;
+top: 1310px;
+line-height: 100px;
+height: 100px;
+left: 45px;
+}
+.card3{
+position: absolute;
+color: #ff471a;
+text-align: center;
+top: 1060px;
+line-height: 100px;
+height: 100px;
+left: 390px;
+}
+.card4{
+position: absolute;
+color: #ff471a;
+text-align: center;
+top: 1310px;
+line-height: 100px;
+height: 100px;
+left: 410px;
+}
+.card5{
+position: absolute;
+color: #ff471a;
+text-align: center;
+top: 1060px;
+line-height: 100px;
+height: 100px;
+left: 770px;
+}
+.card6{
+position: absolute;
+color: #ff471a;
+text-align: center;
+top: 1310px;
+line-height: 100px;
+height: 100px;
+right: 508px;
+}
+.planos{
+text-align: center;
+color: #ff471a;
+}
+.caixas{
+position: relative;
+width: 1200px;
+height: 600px;
+margin: 120px auto;
+}
+.caixas .box{
+position: relative;
+width: calc(400px - 30px);
+height: calc(300px - 30px);
+float: left;
+margin: 15px;
+box-sizing: border-box;
+overflow: hidden;
+border-radius: 10px;
+background: grey;
+border-width: 10px;
+
+}
+.ps1{
+position: absolute;
+top: 1600px;
+right: 230px;
+}
+.ps2{
+position: absolute;
+top: 1600px;
+right:640px;
+}
+.ps3{
+position: absolute;
+top: 1600px;
+right:1050px;
+}
+.contatos{
+position: absolute;
+color: white;
+right: 750px;
+}
+.email{
+position: absolute;
+left: 120px;
+top: 2400px;
+border-radius: 10px;
+border: none;
+}
+.tel{
+position: absolute;
+left: 120px;
+top: 2500px;
+border-radius: 10px;
+border: none;
+}
+.nome{
+position: absolute;
+left: 120px;
+top: 2600px;
+border-radius: 10px;
+border: none;
+}
