@@ -1,0 +1,65 @@
+img{
+max-width: 100%;
+display: block;
+}
+
+button{
+width:100px;  
+height:35px;	
+color: white;
+background-color: #ff471a;
+border-radius: 10px;
+border: none;
+font: Montserrat semibold;
+}
+
+.txtnavbar, ul, li{
+margin: 0px;
+padding: 0px;
+list-style: none;
+font-size: 1.2rem;
+font-family:;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+.navbar{
+background: rgba(255, 72, 26, 0.176);
+display: flex;
+justify-content: space-between;
+padding: 10px;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.opções{
+ display: flex;   
+}
+
+.opções li{
+margin-left: 20px;
+padding: 10px;
+}
+
+.banner{
+align-items: center;
+
+}
+.txtbanner{
+text-align: center;
+position: relative;
+}
+.cards{
+display: grid;
+max width: 300px;
+grid-template-columns: repeat(3, 1fr);
+margin: 0 auto;
+grid-gap: 28px;
+align-items: center;
+grid-column: 1;
+grid-row: 2 / 3;
+}
+
